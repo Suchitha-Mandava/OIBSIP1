@@ -1,0 +1,54 @@
+body{
+    background-image: url("cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTg0MzExOC13aWtpbWVkaWEtaW1hZ2Uta293YzVmbDcuanBn.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bar{
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.bar:hover{
+    background-color: rgb(144, 135, 135);
+    border-radius: 5px;
+    font-size: 30px;
+}
+.logo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.back{
+    width:700px;
+    height: 400px;
+    background-color:white;
+    opacity: 0.7;
+    border-radius: 5px;
+    margin-left: 350px;
+    margin-top: 95px;
+}
+
+.card-container {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.card {
+width: 200px;
+height: 300px;
+background-color: #2a2525;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+img{
+    border-radius: 3px;
+}
